@@ -6,8 +6,6 @@ export default async function Home() {
 
   return (
     <main>
-      <h1>Hello Next.js 13! 🔥🔥</h1>
-      <br/>
       <div className="grid gap-16 fluid">
         {res.results.map(movie => (
           <Movie 
