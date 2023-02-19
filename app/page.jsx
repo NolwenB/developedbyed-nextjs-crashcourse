@@ -8,15 +8,17 @@ export default async function Home() {
     <main>
       <h1>Hello Next.js 13! 🔥🔥</h1>
       <br/>
-      {res.results.map(movie => (
-        <Movie 
-          key={movie.id}
-          id={movie.id}
-          title={movie.title}
-          poster_path={movie.poster_path}
-          release_date={movie.release_date}
-        />
-      ))}
+      <div className="grid gap-16 fluid">
+        {res.results.map(movie => (
+          <Movie 
+            key={movie.id}
+            id={movie.id}
+            title={movie.title}
+            poster_path={movie.poster_path}
+            release_date={movie.release_date}
+          />
+        ))}
+      </div>
     </main>
   )
 }

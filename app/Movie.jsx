@@ -12,8 +12,8 @@ export default function Movie({ key, id, title, release_date, poster_path }) {
                 <Image
                     src={imagePath + poster_path}
                     alt={title}
-                    width={400}
-                    height={600}
+                    width={800}
+                    height={1200}
                 />
             </Link>
         </div>

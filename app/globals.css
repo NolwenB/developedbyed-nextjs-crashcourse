@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fluid {
+  grid-template-columns: repeat(auto-fit,minmax(15rem, 1fr));
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
