@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-	<h3 align="center">Next.JS & MovieDB API - Practice Project</h3>
+	<h3 align="center">Next.js & TMDB API - Practice Project</h3>
 </p>
 
 ## Description
